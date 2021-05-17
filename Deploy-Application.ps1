@@ -183,7 +183,7 @@ Try {
 		# <Perform Uninstallation tasks here>
 		Execute-Process -Path "$envProgramFilesX86\jGRASP\Uninstall.exe" -Parameters '/S' -WindowStyle 'Hidden'
 		Wait-Process -Name Un_A
-		Start-Slepp -s 10
+		Start-Sleep -s 10
 
 		##*===============================================
 		##* POST-UNINSTALLATION
